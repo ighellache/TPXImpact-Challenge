@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<center><body>
+    <div class="page-header"> My StopWatch</div>
+    <!-- Physical stopwatch display -->
+    <div class="clock" id="analog">
+        <div class="hour"></div>
+        <div class="min"></div>
+        <div class="sec"></div>
+    </div>
+    <!-- Toggle light and dark mode for accessibility -->
+    <div class="switch-cont">
+        <button class="switch-btn"> Light </button>
+    </div>
+    <!-- stopwatch display -->
+    <div class="time" id="time">00:00:00:00</div>
+   <!-- play/pause button -->
+   <button class="playpause" onclick="change()" id="playpausebtn">Play</button>
+    <button id="button-reset">Reset</button> <!-- Reset laps -->
+    <!-- adding laps -->
+    <button id="button-lap">Lap</button>
+    <button id="button-clearlap">Clear Lap History</button>   
+    <h3 class="lapsheading">Laps</h3>   
+        <div id="laps">
+            <p id="lapRecord"></p>
+        </div>
+</body></center>
+<script src="script.js"></script>
+<script src="test.js"></script>
+<script src="test-helpers.js"></script>
+</html>
+
+    
