@@ -1,5 +1,8 @@
 # TPXImpact-Part-1
 
+## Here is a link to the project:
+https://ighellache.github.io/TPXImpact-Part-1/
+
 ## Task Description
 Part 1 of the technical challenge describes: 
 
@@ -17,6 +20,4 @@ In the attached zip file there are a collection of posters. Please pick one and 
 Although it looks fine on my laptop, I have tested it on MAC and it appears to look slightly shifted. So I created a MAC version which should solve the problem.
 The link to the mac version will be found on the site. However, I also used BrowserStack to test how it would appear on MAC and Safari through a digital perspective and they appeared correct.
 
-Here is a link to the project:
-https://ighellache.github.io/TPXImpact-Part-1/
 
